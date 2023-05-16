@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #FEFFF5;
+
+} 
+
+.a {
+    color: black;
+}
+.b
+{
+    color: whitesmoke;
+}
+
+.teto {
+    position: fixed;
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.subir {
+    animation: sobe 1s forwards;
+}
+
+@keyframes sobe {
+    0% {
+        margin-top: 0px;
+    }
+
+    100% {
+        margin-top: -100px;
+    }
+}
+
+.descer {
+    animation: desce 1s forwards;
+}
+
+@keyframes desce {
+    0% {
+        margin-top: -100px;
+    }
+
+    100% {
+        margin-top: 0px;
+    }
+}
+
+.invisivel2 { 
+     opacity: 0;
+     margin-left: 47%; 
+     background-color:white; 
+     border-radius: 100%; 
+     width: 100px; 
+     height: 100px; 
+     display:flex; 
+     justify-content: center;
+     justify-items: center;
+    
+    } 
+.invisivel2:hover
+ { 
+    animation: abrindo1 1s linear forwards;
+ }
+ @keyframes abrindo1 {
+     0%{ opacity: 0;} 
+     100%{opacity: 1;} 
+    } 
+ .flecha { 
+    width: 15%; 
+    height: 15%;
+ }
+.gira1 {
+    animation: giraa 1s forwards;
+}
+
+@keyframes giraa {
+    0% {
+        rotate: 0deg;
+    }
+
+    100% {
+        rotate: 180deg;
+    }
+}
+
+.gira2 {
+    animation: girab 1s forwards;
+}
+
+@keyframes girab {
+    0% {
+        rotate: 180deg;
+    }
+
+    100% {
+        rotate: 0deg;
+    }
+}
+
+body {
+    animation: abrindo 2s;
+}
+
+@keyframes abrindo {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.globao {
+    width: 20px;
+
+}
+.escrita:hover
+{
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.escrita
+{
+    width: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.invisivel {
+    width: 30%;
+    height: 100%;
+}
+
+.tetao {
+    width: 30%;
+    height: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.carrinho {
+    width: 30px;
+}
+
+.caixa
+{   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 37%;
+    height: 20%;
+    width: 30%;
+    font-size: 17px;
+    font-weight: bold;
+}
+.beleza
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 27%;
+    height: 500px;
+    width: 50%;
+    border-radius: 15px;
+    border: solid 2px
+}
+.respostas
+{
+    height: 90%;
+    margin-left: 1%;
+    width: 97%;
+    color: black;
+    overflow-y: scroll;
+    word-break: break-all;
+}
+.botao
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 98%;
+    margin-left: 10px;   
+}
+.inputmsg
+{
+    width: 95%;
+    font-size: 16px;
+    
+}

@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #FEFFF5;
+
+} 
+
+.a {
+    color: black;
+}
+
+.teto {
+    position: fixed;
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.subir {
+    animation: sobe 1s forwards;
+}
+
+@keyframes sobe {
+    0% {
+        margin-top: 0px;
+    }
+
+    100% {
+        margin-top: -100px;
+    }
+}
+
+.descer {
+    animation: desce 1s forwards;
+}
+
+@keyframes desce {
+    0% {
+        margin-top: -100px;
+    }
+
+    100% {
+        margin-top: 0px;
+    }
+}
+
+.invisivel2 { 
+     opacity: 0;
+     margin-left: 47%; 
+     background-color:white; 
+     border-radius: 100%; 
+     width: 100px; 
+     height: 100px; 
+     display:flex; 
+     justify-content: center;
+     justify-items: center;
+    
+    } 
+.invisivel2:hover
+ { 
+    animation: abrindo1 1s linear forwards;
+ }
+ @keyframes abrindo1 {
+     0%{ opacity: 0;} 
+     100%{opacity: 1;} 
+    } 
+ .flecha { 
+    width: 15%; 
+    height: 15%;
+ }
+.gira1 {
+    animation: giraa 1s forwards;
+}
+
+@keyframes giraa {
+    0% {
+        rotate: 0deg;
+    }
+
+    100% {
+        rotate: 180deg;
+    }
+}
+
+.gira2 {
+    animation: girab 1s forwards;
+}
+
+@keyframes girab {
+    0% {
+        rotate: 180deg;
+    }
+
+    100% {
+        rotate: 0deg;
+    }
+}
+
+body {
+    animation: abrindo 2s;
+}
+
+@keyframes abrindo {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.globao {
+    width: 20px;
+
+}
+.escrita:hover
+{
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.escrita
+{
+    width: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.invisivel {
+    width: 30%;
+    height: 100%;
+}
+.tetao {
+    width: 30%;
+    height: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.carrinho {
+    width: 30px;
+}
+
+.embaixo
+{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 40%;
+    margin-top: 50px;
+    margin-left: 30%;
+    align-items: center;
+}
+.usuarioo {
+    width: 80px;
+}
+
+.escritas {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: space-around;
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+
+.texto {
+    width: 410px;
+    height: 50px;
+}
+
+.botao {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+button {
+    color: black;
+    width: 400px;
+    height: 35px;
+    font-size: 18px;
+    border: none;
+    font-weight: bold;
+    border-radius: 25px;
+    background-color: #CFE15D;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #4d0fc1;
+    cursor: pointer;
+    color: white;
+}
+
+.final {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+.registre {
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: bold;
+    color: #5b30e6;
+
+}
+
+.cadastro {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Email {
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    font-weight: 500;
+}
+
+.Email:focus {
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    box-shadow: 0 0 0 0;
+    outline: none;
+}
+
+.Senha {
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    font-weight: 500;
+}
+
+.Senha:focus {
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    box-shadow: 0 0 0 0;
+    outline: none;
+}
+.sejaAutor {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+.sejaaautor {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
