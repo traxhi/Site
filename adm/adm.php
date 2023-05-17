@@ -26,10 +26,10 @@
             <input type="password" class="linha" id="confirmarSenha" name="confirmarSenha" value="confirmarSenha"
                 required>
             <div class="botao1">
-                <input type="submit" value="CONTINUAR" name="inserir" class="botao2">
-                <input type="submit" value="EXCLUIR" name="excluir" class="botao2">
-                <input type="submit" value="ALTERAR" name="alterar" class="botao2">
-                <input type="submit" value="LISTAR" name="listar" class="botao2">
+                <a href="adm.php"><input type="submit" value="CADASTRAR" name="inserir" class="botao2"></a>
+                <a href="adm.php"> <input type="submit" value="EXCLUIR" name="excluir" class="botao2"></a>
+                <a href="adm.php"> <input type="submit" value="ALTERAR" name="alterar" class="botao2"></a>
+                <a href="adm.php"> <input type="submit" value="LISTAR" name="listar" class="botao2"></a>
             </div>
         </form>
     </div>
