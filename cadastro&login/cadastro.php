@@ -21,9 +21,9 @@
             <label for="email" class="linha">E-mail:</label>
             <input type="email" class="linha" id="email" name="email" required>
             <label for="senha" class="linha">Senha:</label>
-            <input type="password" class="linha" id="senha" name="senha" value="senha" required>
+            <input type="password" class="linha" id="senha" name="senha" required>
             <label for="senha" class="linha">Comfirmar Senha:</label>
-            <input type="password" class="linha" id="confirmarSenha" name="confirmarSenha" value="confirmarSenha"required> 
+            <input type="password" class="linha" id="confirmarSenha" name="confirmarSenha"required> 
         </form>
         <a href="../compra/pagamento.php"><button>CONTINUAR</button></a>
         <script src="../java/animateto.js"></script>

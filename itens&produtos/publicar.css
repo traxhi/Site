@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    background-color: #FEFFF5;
+}
+
+.a {
+    width: 50px;
+    color: black;
+}
+
+.teto {
+    position: fixed;
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.subir {
+    animation: sobe 1s forwards;
+}
+
+@keyframes sobe {
+    0% {
+        margin-top: 0px;
+    }
+
+    100% {
+        margin-top: -100px;
+    }
+}
+
+.descer {
+    animation: desce 1s forwards;
+}
+
+@keyframes desce {
+    0% {
+        margin-top: -100px;
+    }
+
+    100% {
+        margin-top: 0px;
+    }
+}
+
+.invisivel2 {
+    opacity: 0;
+    margin-left: 47%;
+    background-color: white;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.invisivel2:hover {
+    animation: abrindo1 1s linear forwards;
+}
+
+@keyframes abrindo1 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.flecha {
+    width: 15%;
+    height: 15%;
+}
+
+.gira1 {
+    animation: giraa 1s forwards;
+}
+
+@keyframes giraa {
+    0% {
+        rotate: 0deg;
+    }
+
+    100% {
+        rotate: 180deg;
+    }
+}
+
+.gira2 {
+    animation: girab 1s forwards;
+}
+
+@keyframes girab {
+    0% {
+        rotate: 180deg;
+    }
+
+    100% {
+        rotate: 0deg;
+    }
+}
+
+body {
+    animation: abrindo 2s;
+}
+
+@keyframes abrindo {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.invisivel {
+    width: 50%;
+    height: 100%;
+}
+
+.globao {
+    width: 20px;
+
+}
+
+.escrita:hover {
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.escrita {
+    width: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.invisivel {
+    width: 30%;
+    height: 100%;
+}
+
+.tetao {
+    width: 30%;
+    height: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.carrinho {
+    width: 30px;
+}
+
+.caixa1 {
+    display: flex;
+    justify-items: center;
+    width: 250px;
+    height: 50px;
+    font-size: 35px;
+    margin-left: 42%;
+}
+
+.caixa2 {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 70vh;
+
+    margin-left: 5%;
+}
+
+#image-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+    height: 350px;
+}
+
+.image-preview {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.caixa3 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-left: 150px;
+}
+
+.cx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+
+}
+
+.caixa4 {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-left: 150px;
+}
+
+.obra {
+
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+input {
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: 0;
+}
+
+
+.linha {
+    width: 100%;
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+}
+
+.linha:focus {
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    box-shadow: 0, 0, 0, 0;
+}
+
+.linha {
+    height: 90%;
+    width: 100%;
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+}
+
+.linha2 {
+    width: 100%;
+    height: 100%;
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    text-align: left;
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: 0;
+}
+
+.caixa5 {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
